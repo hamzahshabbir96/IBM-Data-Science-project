@@ -35,3 +35,17 @@ Problem
 - Perform interactive visual analytics using Folium and Plotly Dash
 - Perform predictive analysis using classification models
 - Hyper parameters of model were tuned using grid search
+## Data Collection
+- Data were extracted using two method and sources:
+  - Extracted from SpaceX API and then conversion of result from json to dataframe using pandas
+  - Web scrapping was done to extract data from Wikipedia page of SpaecX using request and beautifulsoup library in python
+- SpaceX API Data columns
+FlightNumber, Date, BoosterVersion, PayloadMass, Orbit, LaunchSite, Outcome, Flights, GridFins, Reused, Legs, LandingPad, Block, ReusedCount, Serial, Longitude, Latitude
+- Wikipedia Data columns
+Flight No., Launch site, Payload, PayloadMass, Orbit, Customer, Launch outcome, Version  Booster, Booster landing, Date, Time
+
+## Data collection Space-X API
+Data collection approach (API)
+![image](images/dc1.PNG)
+Data collection approach Web scraping
+![image](images/dc2.PNG)
