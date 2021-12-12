@@ -52,3 +52,13 @@ Data collection approach (API)
 Data collection approach Web scraping
 
 ![image](images/dc2.PNG)
+
+## Data wrangling
+- Creation of data column with training label with outcomes where successful is mapped with 1 and failure with 0
+- Outcome has columns mission outcome and landing location
+- Mapping of different features with True in it with 1 and all other with 0
+
+## Exploratory data analysis with Data visualization
+- Carried out Exploratory data analysis on different relations of data column
+- Different types of plot such as scatter plot, line plot and bar plots were used to see relationship between different variables and to see trend 
+[github](https://github.com/hamzahshabbir96/IBM-Data-Science-project/blob/master/EDA%20with%20Data%20visualization.ipynb)
