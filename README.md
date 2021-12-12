@@ -21,7 +21,7 @@ Prediction analysis of SpaceX by creating and optimizing different machine learn
 - [Introduction](#Introduction)
 - [Methodology](#Methodology)
 - [Results](#Results)
-- [Conclusion](#Conclusion)
+- [Conclusions](#Conclusion)
 
 
 ## Executive Summary
