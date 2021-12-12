@@ -47,5 +47,6 @@ Flight No., Launch site, Payload, PayloadMass, Orbit, Customer, Launch outcome, 
 ## Data collection Space-X API
 Data collection approach (API)
 ![image](images/dc1.PNG)
+
 Data collection approach Web scraping
 ![image](images/dc2.PNG)
