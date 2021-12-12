@@ -86,6 +86,7 @@ Applied folium library to build an interactive map with information such as Laun
 
 ## Predictive Analysis (Classification)
 [Jupyter notebook](https://github.com/hamzahshabbir96/IBM-Data-Science-project/blob/master/Machine%20learning%20prediction.ipynb)
+
 ![image](images/dc3.PNG)
 
 ## Results
