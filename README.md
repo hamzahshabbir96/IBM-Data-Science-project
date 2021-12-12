@@ -44,21 +44,58 @@ FlightNumber, Date, BoosterVersion, PayloadMass, Orbit, LaunchSite, Outcome, Fli
 - Wikipedia Data columns
 Flight No., Launch site, Payload, PayloadMass, Orbit, Customer, Launch outcome, Version  Booster, Booster landing, Date, Time
 
+
 ## Data collection Space-X API
 Data collection approach (API)
 
 ![image](images/dc1.PNG)
 
+[Jupyter notebook](https://github.com/hamzahshabbir96/IBM-Data-Science-project/blob/master/Project%20mission%20space.ipynb)
+
 Data collection approach Web scraping
 
 ![image](images/dc2.PNG)
+
+[Jupyter notebook](https://github.com/hamzahshabbir96/IBM-Data-Science-project/blob/master/Data%20collection%20with%20web%20scraping.ipynb)
 
 ## Data wrangling
 - Creation of data column with training label with outcomes where successful is mapped with 1 and failure with 0
 - Outcome has columns mission outcome and landing location
 - Mapping of different features with True in it with 1 and all other with 0
-
+[Jupyter notebook](https://github.com/hamzahshabbir96/IBM-Data-Science-project/blob/master/Data%20wrangling.ipynb)
 ## Exploratory data analysis with Data visualization
 - Carried out Exploratory data analysis on different relations of data column
 - Different types of plot such as scatter plot, line plot and bar plots were used to see relationship between different variables and to see trend 
-[github](https://github.com/hamzahshabbir96/IBM-Data-Science-project/blob/master/EDA%20with%20Data%20visualization.ipynb)
+[Jupyter notebook](https://github.com/hamzahshabbir96/IBM-Data-Science-project/blob/master/EDA%20with%20Data%20visualization.ipynb)
+
+## Exploratory data analysis with SQL
+- Data were loaded and stored into IBM DB2 database on cloud
+- Ran different queries by integrating SQL API with Python
+- Different analysis were done using queries such as mission outcomes, various payloads size of customers etc. get deep understanding of data
+[Jupyter notebook](https://github.com/hamzahshabbir96/IBM-Data-Science-project/blob/master/EDA%20with%20SQL.ipynb)
+
+## Build an Interactive Map with Folium
+Applied folium library to build an interactive map with information such as Launch sites , successful and unsuccessful landing with nearby location such as Railway, highway etc
+[Jupyter notebook](https://github.com/hamzahshabbir96/IBM-Data-Science-project/blob/master/Interactive%20Visual%20Analytics.ipynb)
+
+## Build a Dashboard with Plotly Dash
+- Using plotly dash created an interactive dashboard where user have option to select certain parameter.
+- Scatter plot takes input in the form of drowpdown with All site or individual site as options. Other input is a slider to select payload mass between 0 and 10000 kg.
+- Pie chart created to visualize success rate
+[go to file](https://github.com/hamzahshabbir96/IBM-Data-Science-project/blob/master/dash.py)
+
+## Predictive Analysis (Classification)
+[Jupyter notebook](https://github.com/hamzahshabbir96/IBM-Data-Science-project/blob/master/Machine%20learning%20prediction.ipynb)
+![image](images/dc3.PNG)
+
+## Results
+![image](images/capture.PNG)
+
+### Flight Number vs. Launch Site
+plot show relation of launch site with flight number. It can be concluded that CCAFS SLC 40 has maximum number of launch
+![image](images/launch vs flight.PNG)
+
+
+
+
+
