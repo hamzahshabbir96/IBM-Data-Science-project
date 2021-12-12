@@ -1,13 +1,27 @@
 # IBM-Data-Science-project
 Prediction analysis of SpaceX by creating and optimizing different machine learning algorithm on IBM Watson cloud using SpaceX API and presented reports in the form of interactive dashboard and visual analytics 
 
+## Technologies
+- Cloud (IBM Watson)
+- SQL for exploratory data analysis
+- API to connect cloud database with Python
+- Machine learning algorithm
+   - Logistic Regression
+  - Support Vector  Machine
+  - Decision Tree Classifier
+  - K Nearest Neighbors
+- Optimization of model through hyper parameter tuning using grid search
+- Python
+- Visualization (plots, charts, map) and reporting
+- Interactive dashboard (Plotly dash)
+- Git
+- Web scraping (HTML parsing)
 ## Outline 
 - [Executive Summary](#Executive-Summary)
 - [Introduction](#Introduction)
 - [Methodology](#Methodology)
 - [Results](#Results)
 - [Conclusion](#Conclusion)
-- [Appendix](#Appendix)
 
 
 ## Executive Summary
@@ -96,9 +110,59 @@ Applied folium library to build an interactive map with information such as Laun
 ### Flight Number vs. Launch Site
 plot show relation of launch site with flight number. It can be concluded that CCAFS SLC 40 has maximum number of launch
 
-![image](images/launch vs flight.png)
+![image](images/dc4.png)
 
 
+### Payload vs. Launch Site
 
+Plot shows relation between launch site and payload where green dot shows successful launch and blue dot shows unsuccessful launch
+
+![image](images/dc5.png)
+
+### Success Rate vs. Orbit Type
+
+![image](images/dc6.png)
+
+### Flight Number vs. Orbit Type
+
+![image](images/dc7.png)
+
+### Payload vs. Orbit Type
+Plots shows relation of orbit with payload
+ISS having high payload resulted into successful launch
+Size of pyload doesnot mean unsuccessful launch
+
+![image](images/dc8.png)
+
+### Launch Success Yearly Trend
+Plot shows trend in success rate, it shows success rate has improved significantly in recent years
+
+![image](images/dc9.png)
+
+### Launch site location
+![image](images/dc10.png)
+Above map shows launch site location in the form of circle
+
+### Launch markers
+Green color shows successful landing and red color shows unsuccessful landing
+![image](images/dc11.png)
+
+### Pie chart for successful launches
+
+![image](images/dc12.png)
+Above pie chart shows successful and unsuccessful launches
+
+### Confusion Matrix
+Model predicted 12 successful landing when there was actual landing.
+There was also false negative of 3 set
+Predicted accurately number of unsuccessful land
+![image](images/dc13.png)
+
+## Conclusions
+- Produced interactive dashboard and visual analysis to conclude some of the important trends
+- Model successfully predicted if landing will be successful with great accuracy
+- Machine learning model with accuracy of 82% was developed
+- Through this model we can find out whether launch should be made or not
+- Having more data will make model more accurate
 
 
