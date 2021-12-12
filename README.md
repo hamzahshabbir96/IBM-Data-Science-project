@@ -89,10 +89,12 @@ Applied folium library to build an interactive map with information such as Laun
 ![image](images/dc3.PNG)
 
 ## Results
+
 ![image](images/capture.PNG)
 
 ### Flight Number vs. Launch Site
 plot show relation of launch site with flight number. It can be concluded that CCAFS SLC 40 has maximum number of launch
+
 ![image](images/launch vs flight.PNG)
 
 
