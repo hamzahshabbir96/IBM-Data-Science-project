@@ -117,6 +117,7 @@ plot show relation of launch site with flight number. It can be concluded that C
 
 Plot shows relation between launch site and payload where green dot shows successful launch and blue dot shows unsuccessful launch
 
+
 ![image](images/dc5.png)
 
 ### Success Rate vs. Orbit Type
@@ -156,6 +157,7 @@ Above pie chart shows successful and unsuccessful launches
 Model predicted 12 successful landing when there was actual landing.
 There was also false negative of 3 set
 Predicted accurately number of unsuccessful land
+
 ![image](images/dc13.png)
 
 ## Conclusions
